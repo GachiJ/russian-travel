@@ -1,5 +1,13 @@
 .place__img {
     max-width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    min-width: 320px;
+    min-height: 320px;
+}
+
+@media screen and (min-width: 768px) {
+    .place__img {
+        max-width: auto;
+        width: 340px;
+        height: 340px;
+    }
 }
