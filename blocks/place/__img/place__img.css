@@ -6,8 +6,14 @@
 
 @media screen and (min-width: 768px) {
     .place__img {
-        max-width: auto;
         width: 340px;
         height: 340px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place__img {
+        width: 440px;
+        height: 440px;
     }
 }

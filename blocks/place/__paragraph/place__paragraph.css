@@ -19,3 +19,13 @@
         margin: 25px auto 0;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .place__paragraph {
+        font-size: 18px;
+    }
+
+    .place__paragraph:nth-child(2n) {
+        margin: 26px auto 0;
+    }
+}

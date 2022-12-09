@@ -8,3 +8,9 @@
         margin: 88px auto 0;
     }
 } 
+
+@media screen and (min-width: 1024px) {
+    .places {
+        margin: 92px auto 0;
+    }
+} 

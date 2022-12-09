@@ -11,7 +11,15 @@
         max-width: 90%;
         display: grid;
         grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
         gap: 48px 28px;
         margin-top: 73px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place {
+        gap: 48px 32px;
+        margin-top: 80px;
     }
 }

@@ -8,3 +8,12 @@
         margin: 32px 0 0;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .place__website  {
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+}
