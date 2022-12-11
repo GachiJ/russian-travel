@@ -6,7 +6,7 @@
 }
 
 .place__paragraph:nth-child(2n) {
-    margin: 25px auto 0;
+    margin-top: 25px;
 }
 
 @media screen and (min-width: 768px) {
@@ -16,7 +16,7 @@
     }
 
     .place__paragraph:nth-child(2n) {
-        margin: 25px auto 0;
+        margin-top: 25px;
     }
 }
 
@@ -26,6 +26,6 @@
     }
 
     .place__paragraph:nth-child(2n) {
-        margin: 26px auto 0;
+        margin-top: 26px;
     }
 }

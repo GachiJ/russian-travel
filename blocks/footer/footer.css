@@ -4,9 +4,9 @@
    flex-direction: column;
    margin: 64px 0 0;
    padding-bottom: 24px;
-  }
+}
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
    .footer {
       max-width: 90%;
       margin: 64px auto 0;
@@ -20,10 +20,10 @@
    .footer {
       margin: 92px auto 0;
    }
-} 
+}
 
 @media screen and (min-width: 1280px) {
    .footer {
       margin: 92px auto 0;
    }
-} 
+}
