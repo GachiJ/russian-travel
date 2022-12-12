@@ -2,18 +2,18 @@
     max-width: 100%;
     min-width: 320px;
     min-height: 320px;
-}
+ }
 
-@media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .place__img {
-        width: 340px;
-        height: 340px;
-    }
-}
+      width: 340px;
+      height: 340px;
+   }
+ }
 
-@media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .place__img {
-        width: 440px;
-        height: 440px;
-    }
-}
+      width: 440px;
+      height: 440px;
+   }
+ }

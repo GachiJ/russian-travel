@@ -2,36 +2,35 @@
     min-width: 320px;
     min-height: 200px;
     color: #fff;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(42, 44, 47, .3);
     text-decoration: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+ }
 
-@media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .cover__overlay {
-        min-width: 768px;
-        min-height: 480px;
-    }
+      min-width: 768px;
+      min-height: 480px;
+   }
 
     .cover__overlay:hover {
-        background-color: rgba(0, 0, 0, .8);
-    }
-}
+      background-color: rgba(42, 44, 47, .8);
+   }
+ }
 
-@media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .cover__overlay {
-        min-width: 1024px;
-        min-height: 640px;
-    }
-}
+      min-width: 1024px;
+      min-height: 640px;
+   }
+ }
 
-@media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1280px) {
     .cover__overlay {
-
-        min-width: 1184px;
-        min-height: 740px;
-    }
-}
+      max-width: 1184px;
+      max-height: 740px;
+   }
+ }
