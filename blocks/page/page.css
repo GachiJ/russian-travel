@@ -1,9 +1,27 @@
 .page {
-    min-width: 320px;
-    background-color: #2A2C2F;
-    color: #FFFFFF;
-   /* мы ещё не умеем делать мобильную версию сайта, */
-   /* поэтому выше установлена минимальная ширина страницы */
-   /* выше установили ограничение по максимальной ширине */
-    margin: 0 auto;
- }
+  min-width: 320px;
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+}
+/*
+@media screen and (min-width: 768px) {
+  .page {
+    min-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page {
+    min-width: 1024px;
+  }
+}
+
+@media screen and (min-width: 10280px) {
+  .page {
+    min-width: 1280px;
+  }
+}
